@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+text {
+    color: #fff;
+}
+
+#logs {
+    width: 150px;
+    height: auto;
+    text-align: left
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+
+}
+
+ul li {
+    margin: 0 15px;
+    /*color: #ffffff;*/
+}
+
+.heads {
+    z-index: 2;
+    box-shadow: 0 0 5px 5px #a3a3a3;
+    position: fixed;
+    /*width: 1800px;*/
+    width: 1920px;
+    height: 140px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.resource {
+    margin-left: 100px;
+    background: dodgerblue;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bg img {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.body_title {
+    color: #ffffff;
+}
+
+body > main > div > p {
+    color: #ffffff;
+}
+
+.main {
+    width: 1600px;
+    height: 4000px;
+    position: relative;
+}
+
+.main-heart {
+    width: 1600px;
+    height: 4000px;
+    /*background-color: dodgerblue;*/
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main1 {
+    width: 1600px;
+    height: 850px;
+    /*background-color: #dd7272;*/
+    position: relative;
+}
+
+.main1-content1 {
+    width: 500px;
+    /*height: 800px;*/
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+input[name=text] {
+    margin: 0;
+    -moz-border-left-colors: none;
+    height: 30px;
+    padding: 0 5px;
+    /*border-width: 1px medium 1px 1px;*/
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    border: 1px solid #D8D8D8;
+    border-image: none;
+    float: left;
+}
+
+input[name=sub] {
+    /*border: 1px solid #D8D8D8;*/
+    border: 1px solid #8f8f8f;
+    margin-left: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 86px;
+    -moz-appearance: none;
+    float: left;
+    /*color: #ffffff;*/
+    background-color: #ffdb8e;
+    color: #000000;
+}
+
+input[name=sub]:hover {
+    border: none;
+    background-color: #f8c669;
+    color: white;
+    font-weight: 800;
+}
+
+body > main > div > div > p {
+    color: #fff;
+}

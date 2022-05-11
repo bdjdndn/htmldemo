@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f69dcdc8-697b-4600-829c-cead27398979" name="demo" url="https://github.com/bdjdndn/htmldemo.git">
+        <fileTransfer accessType="SFTP" sshConfigId="fbd93cb5-3459-44af-9bfb-91c46989852c" sshConfig="demo">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
